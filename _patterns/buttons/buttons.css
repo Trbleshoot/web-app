@@ -2,7 +2,7 @@
   background-color:  var(--color-accent);
   border: 0;
   color: #fff;
-  font-weight: 600;
+  font-weight: 300;
   padding-left: 2em;
   padding-right: 2em;
   border-radius: 0px;
@@ -28,7 +28,7 @@
 .btn-light {
   background-color: var(--color-primary);
   color: #fff;
-  font-weight: 600;
+  font-weight: 300;
   border-radius: 0px;
 }
 
