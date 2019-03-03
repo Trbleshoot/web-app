@@ -1,5 +1,6 @@
 nav li {
   width: 100%;
+  text-align: center;
 }
 
 nav li a {
@@ -7,6 +8,7 @@ nav li a {
   color: #fff;
   font-weight: 500;
   text-align: center;
+  display: inline-block;
 }
 
 nav li a:hover {
@@ -16,68 +18,7 @@ nav li a:hover {
   transition: .2s;
 }
 
-/** TOGGLE NAV **/
-
-.i-36 {
-  height: 36px;
-  width: 36px;
-}
-
-nav nav-check:checked ~ .header-nav {
-  display: block;
-  position: absolute;
-  top: 46px;
-  width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 100000;
-}
-
-.nav-label {
-  cursor: pointer;
-  display: inline-block;
-  width: 40px;
-}
-
- .nav-check {
-  position: absolute;
-  top: -3em;
-}
-
-.nav-open,
-.nav-close {
-  display: block;
-  position: absolute;
-  top: .5rem;
-  right: 1rem;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .header-nav {
-  display: none;
-}
-
-.nav-check:checked ~ .header-nav {
-  display: block;
-}
-
-label.nav-label::before {
-  display: none;
-}
-
 @media only screen and (min-width: 38em) {
-
-  .nav-check:checked ~ .header-nav {
-    display: none;
-  }
-
-  .nav-open,
-  .nav-close {
-    display: none;
-  }
 
   .header-nav {
     background-color: rgba(0, 0, 0, 0.0);
