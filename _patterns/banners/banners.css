@@ -1,0 +1,19 @@
+.grey-banner {
+  background-color: #E2E2E2;
+  color: #1d1d1d;
+}
+
+.footer-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/flags/australia.jpeg");
+  color: #fff;
+  border-bottom: 10px solid #862014
+}
+
+.banner-containerFooter {
+  width: 100%;
+  padding: 100px 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}

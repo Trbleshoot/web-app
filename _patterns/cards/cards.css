@@ -1,0 +1,8 @@
+.grey-bg-r {
+  background-image: linear-gradient(#F4F3F2, #F4F3F2);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  padding-top: 2em;
+  padding-right: 2em;
+}
