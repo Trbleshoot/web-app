@@ -1,8 +1,22 @@
 .grey-bg-r {
-  background-image: linear-gradient(#F4F3F2, #F4F3F2);
+  background-image: linear-gradient(#D9D9D9, #D9D9D9);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 75%;
   padding-top: 2em;
   padding-right: 2em;
+}
+
+.card,
+.card-two,
+.card-three {
+  color: #1d1d1d;
+}
+
+.cocktail-heading {
+  font-weight: 500;
+}
+
+.img-flex {
+  width: 100%;
 }

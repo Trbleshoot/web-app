@@ -3,9 +3,41 @@ layout: default
 title: Mix'er
 description: Mixology Website
 ---
-
-<main>
-  <h1></h1>
+<main class="island pad-t-2 push-2 gutter-2">
+  <div>
+    <h1 class="tera gutter push-1-2 title">What's Trending</h1>
+    <hr class="redUnderline push-2">
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 gutter push">
+        {% pattern cards/cocktail %}
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 gutter push">
+        {% pattern cards/cocktail-card-two %}
+      </div>
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 gutter">
+        {% pattern cards/cocktail-card-three %}
+      </div>
+    </div>
+  </div>
+>>>>>>> 2229179361e7981c806ef14adb9b976b8880be71
 </main>
+
+<section class="seasonal-favourites island push-2 grid pad-t-2">
+  <div class="seasonal-section unit xs-1 s-1 m-1-2 l-1-3 xl-1-3">
+    <h1 class="tera gutter push-1-2 title">Seasonal Favourites</h1>
+    <hr class="redUnderline push-2">
+    <div class="seasonal-content gutter">
+      <p class="push-1-4 bold push">Cherry Cha Cha</p>
+      <a class="milli" href="#">Cherry Cha Cha tastes uncannily like a chocolate covered cherry, and goes down nice and smooth.</a>
+      <p class="push-1-4 pad-t-1-2 bold">Creamy Chocolate Raspberry</p>
+      <a class="milli" href="#">The Creamy Chocolate Raspberry tastes just like it sounds, with a red sugar rim to make it festive.</a>
+      <p class="push-1-4 pad-t-1-2 bold">The Soft Love</p>
+      <a class="milli" href="#">The Soft Love is a reddish-pink cordial that tastes like banana and cherry.</a>
+    </div>
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-2-3 xl-2-3 pad-b-2 gutter friends-image">
+    <img class="img-flex island holiday-drink" src="/images/cocktails/holiday.jpg" alt="">
+  </div>
+</section>
 
 {% pattern banners/footer-banner %}

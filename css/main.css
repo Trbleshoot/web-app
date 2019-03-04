@@ -6,3 +6,66 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+.seasonal-favourites {
+  color: #1d1d1d;
+}
+
+.title {
+  font-weight:500;
+}
+
+.redUnderline {
+  display: block;
+  width: 7em;
+  margin-left: 1.5em;
+  border: 0;
+  border-top: 7px solid #862014;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+.seasonal-content a {
+  color: #1c1c1c;
+}
+
+.holiday-drink {
+  display: none;
+}
+
+.text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.middle {
+  transition: .3s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .8s ease;
+}
+
+.container {
+  position: relative;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .holiday-drink {
+    display:block;
+  }
+
+}
