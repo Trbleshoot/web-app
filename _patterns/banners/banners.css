@@ -6,7 +6,10 @@
 .footer-banner {
   background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/flags/australia.jpeg");
   color: #fff;
-  border-bottom: 10px solid #862014
+  border-bottom: 10px solid #862014;
+  position: relative;
+  background-size: cover;
+  background-position: center;
 }
 
 .footer-banner-two {
@@ -27,4 +30,13 @@
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .mixer-type {
+    text-align: left;
+  }
+
 }
