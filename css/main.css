@@ -12,7 +12,7 @@
 }
 
 .title {
-  font-weight:500;
+  font-weight: 500;
 }
 
 .redUnderline {
@@ -48,6 +48,7 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  color: #fff;
 }
 
 .image {
@@ -62,10 +63,52 @@
   position: relative;
 }
 
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  color: #000;
+}
+
+.grey-bg-b {
+  background-image: linear-gradient(#D9D9D9, #D9D9D9);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  padding: 2em;
+}
+
+.nav-grey {
+  background-color: #1d1d1d;
+}
+
+.icon-label {
+  font-weight: 500;
+}
+
+
 @media only screen and (min-width: 38em) {
 
   .holiday-drink {
     display:block;
+  }
+
+  .baseS-content {
+    padding: 3em;
+  }
+
+  .container {
+    margin-bottom: 1em;
+    padding-left: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .cocktail-card {
+    padding-left: 2em;
   }
 
 }

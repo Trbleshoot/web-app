@@ -1,0 +1,13 @@
+patterns:
+  image:
+    width: 400
+    fields:
+      - name: title
+        type: string
+        example: "Long Island Iced Tea"
+      - name: details
+        type: string
+        example: The Long Island Iced Tea is a popular mixed drink that, despite its name, contains no tea.
+      - name: image
+        type: image
+        example: "long-island.jpeg"
