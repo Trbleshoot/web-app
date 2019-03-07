@@ -5,11 +5,10 @@
   background-size: 75%;
   padding-top: 2em;
   padding-right: 2em;
+  margin-bottom: 0;
 }
 
-.card,
-.card-two,
-.card-three {
+.card {
   color: #1d1d1d;
 }
 
@@ -19,4 +18,8 @@
 
 .img-flex {
   width: 100%;
+}
+
+h2 {
+  font-weight: 500;
 }
