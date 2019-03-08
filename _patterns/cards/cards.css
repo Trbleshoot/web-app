@@ -5,11 +5,10 @@
   background-size: 75%;
   padding-top: 2em;
   padding-right: 2em;
+  margin-bottom: 0;
 }
 
-.card,
-.card-two,
-.card-three {
+.card {
   color: #1d1d1d;
 }
 
@@ -20,7 +19,6 @@
 .img-flex {
   width: 100%;
 }
-<<<<<<< HEAD
 
 h2 {
   font-weight: 500;
@@ -37,5 +35,3 @@ h2 {
 .white-text {
   color: var(--color-primary-light);
 }
-=======
->>>>>>> parent of e4b7854... Merge branch 'diandra-branch' of https://github.com/Trbleshoot/web-app into diandra-branch

@@ -1,5 +1,5 @@
 .grey-banner {
-  background-color: #E2E2E2;
+  background-color: #EFEDED;
   color: #1d1d1d;
 }
 
@@ -15,7 +15,8 @@
 .footer-banner-two {
   background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/banners/footer-banner-two.jpeg");
   color: #fff;
-  border-bottom: 10px solid #862014
+  border-bottom: 10px solid #862014;
+  background-position: 30%;
 }
 
 .footer-text {
