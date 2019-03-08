@@ -12,7 +12,7 @@
 }
 
 .title {
-  font-weight: 500;
+  font-weight:500;
 }
 
 .redUnderline {
@@ -48,7 +48,6 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff;
 }
 
 .image {
@@ -63,6 +62,8 @@
   position: relative;
 }
 
+<<<<<<< HEAD
+=======
 .container:hover .image {
   opacity: 0.3;
 }
@@ -87,38 +88,12 @@
   font-weight: 500;
 }
 
-.plus {
-  left: 250px;
-}
 
-.lemon {
-  width: 180px;
-}
-.spice {
-  width: 180px;
-}
-
+>>>>>>> parent of dfe0f1f... added content
 @media only screen and (min-width: 38em) {
 
   .holiday-drink {
     display:block;
-  }
-
-  .baseS-content {
-    padding: 3em;
-  }
-
-  .container {
-    margin-bottom: 1em;
-    padding-left: 1em;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  .cocktail-card {
-    padding-left: 2em;
   }
 
 }

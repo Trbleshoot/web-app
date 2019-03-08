@@ -29,10 +29,6 @@ ul.header-nav-wrapper .active {
   transition: 0.4s;
 }
 
-.nav-grey {
-  color: #1d1d1d;
-}
-
 @media only screen and (min-width: 38em) {
 
   .header-nav {
