@@ -3934,9 +3934,47 @@ html {
   font-family: var(--font-primary);
 }
 
-footer {
-  background-color: #EFEDED;
+.grey-banner {
+  background-color: #E2E2E2;
   color: #1d1d1d;
+}
+
+.footer-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/flags/australia.jpeg");
+  color: #fff;
+  border-bottom: 10px solid #862014;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-banner-two {
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/banners/footer-banner-two.jpeg");
+  color: #fff;
+  border-bottom: 10px solid #862014
+}
+
+.footer-text {
+  font-weight: 300;
+}
+
+
+.banner-containerFooter {
+  width: 100%;
+  padding: 100px 0;
+  background-position: middle;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .mixer-type {
+    text-align: left;
+  }
+
 }
 
 .btn {
@@ -3985,10 +4023,11 @@ footer {
   background-size: 75%;
   padding-top: 2em;
   padding-right: 2em;
-  margin-bottom: 0;
 }
 
-.card {
+.card,
+.card-two,
+.card-three {
   color: #1d1d1d;
 }
 
@@ -3999,6 +4038,7 @@ footer {
 .img-flex {
   width: 100%;
 }
+<<<<<<< HEAD
 
 h2 {
   font-weight: 500;
@@ -4015,6 +4055,45 @@ h2 {
 .white-text {
   color: var(--color-primary-light);
 }
+=======
+>>>>>>> parent of e4b7854... Merge branch 'diandra-branch' of https://github.com/Trbleshoot/web-app into diandra-branch
+
+footer {
+  background-color: #EFEDED;
+  color: #1d1d1d;
+}
+
+.homepage-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/banners/banner-photo.jpeg");
+  position: relative;
+}
+
+.cocktail-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/banners/cocktail-banner.jpeg");
+  position: relative;
+}
+
+.banner-container {
+  width: 100%;
+  padding: 90px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+
+}
+
+  @media only screen and (min-width: 38em) {
+
+    .banner-container,
+    .banner-h1 {
+      text-align: left;
+    }
+
+    .banner-button {
+      text-align: left;
+    }
+  }
 
 .header-nav-wrapper {
   text-align: center;
@@ -4045,10 +4124,6 @@ ul.header-nav-wrapper .active {
   padding-bottom: 3px;
   color: #fff;
   transition: 0.4s;
-}
-
-.nav-grey {
-  color: #1d1d1d;
 }
 
 @media only screen and (min-width: 38em) {
@@ -4092,93 +4167,13 @@ ul.header-nav-wrapper .active {
 
 }
 
-.grey-banner {
-  background-color: #EFEDED;
-  color: #1d1d1d;
-}
-
-.footer-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/flags/australia.jpeg");
-  color: #fff;
-  border-bottom: 10px solid #862014;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-}
-
-.footer-banner-two {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/banners/footer-banner-two.jpeg");
-  color: #fff;
-  border-bottom: 10px solid #862014;
-  background-position: 30%;
-}
-
-.footer-text {
-  font-weight: 300;
-}
-
-
-.banner-containerFooter {
-  width: 100%;
-  padding: 100px 0;
-  background-position: middle;
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;
-}
-
-
-@media only screen and (min-width: 38em) {
-
-  .mixer-type {
-    text-align: left;
-  }
-
-}
-
-.homepage-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/banners/banner-photo.jpeg");
-  position: relative;
-}
-
-.cocktail-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/banners/cocktail-banner.jpeg");
-  position: relative;
-}
-
-.profile-banner {
-  background-color: #1d1d1d;
-}
-
-.banner-container {
-  width: 100%;
-  padding: 90px 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-
-}
-
-  @media only screen and (min-width: 38em) {
-
-    .banner-container,
-    .banner-h1 {
-      text-align: left;
-    }
-
-    .banner-button {
-      text-align: left;
-    }
-  }
-
 
 .seasonal-favourites {
   color: #1d1d1d;
 }
 
 .title {
-  font-weight: 500;
+  font-weight:500;
 }
 
 .redUnderline {
@@ -4214,7 +4209,6 @@ ul.header-nav-wrapper .active {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff;
 }
 
 .image {
@@ -4229,6 +4223,8 @@ ul.header-nav-wrapper .active {
   position: relative;
 }
 
+<<<<<<< HEAD
+=======
 .container:hover .image {
   opacity: 0.3;
 }
@@ -4253,38 +4249,12 @@ ul.header-nav-wrapper .active {
   font-weight: 500;
 }
 
-.plus {
-  left: 250px;
-}
 
-.lemon {
-  width: 180px;
-}
-.spice {
-  width: 180px;
-}
-
+>>>>>>> parent of dfe0f1f... added content
 @media only screen and (min-width: 38em) {
 
   .holiday-drink {
     display:block;
-  }
-
-  .baseS-content {
-    padding: 3em;
-  }
-
-  .container {
-    margin-bottom: 1em;
-    padding-left: 1em;
-  }
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  .cocktail-card {
-    padding-left: 2em;
   }
 
 }
