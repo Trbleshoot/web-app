@@ -62,6 +62,34 @@
   position: relative;
 }
 
+<<<<<<< HEAD
+=======
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  color: #000;
+}
+
+.grey-bg-b {
+  background-image: linear-gradient(#D9D9D9, #D9D9D9);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  padding: 2em;
+}
+
+.nav-grey {
+  background-color: #1d1d1d;
+}
+
+.icon-label {
+  font-weight: 500;
+}
+
+
+>>>>>>> parent of dfe0f1f... added content
 @media only screen and (min-width: 38em) {
 
   .holiday-drink {
