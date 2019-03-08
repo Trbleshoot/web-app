@@ -23,3 +23,15 @@
 h2 {
   font-weight: 500;
 }
+
+.gray-box {
+  background-color: var(--color-primary);
+  width: 2em;
+  height: 2em;
+  position: relative;
+  display: block;
+}
+
+.white-text {
+  color: var(--color-primary-light);
+}
