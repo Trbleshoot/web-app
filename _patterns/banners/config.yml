@@ -1,0 +1,9 @@
+patterns:
+  header-image:
+    fields:
+      - name: title
+        type: string
+        example: "Take A Browse Through Our Base Spirits"
+      - name: image
+        type: image
+        example: "cocktail-banner.jpeg"
