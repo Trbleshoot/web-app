@@ -1,0 +1,25 @@
+patterns:
+  favourites-list:
+    width: 600
+    fields:
+      - name: title
+        type: string
+        example: "Long Island Iced Tea"
+      - name: details
+        type: string
+        example: The Long Island Iced Tea is a popular mixed drink that, despite its name, contains no tea.
+      - name: image
+        type: image
+        example: "long-island.jpeg"
+  tips-list:
+    width: 600
+    fields:
+      - name: title
+        type: string
+        example: "Making the Perfect Martini"
+      - name: details
+        type: string
+        example: With Martinis the proof is in the mixing. You can never have the same Martini twice,
+      - name: image
+        type: image
+        example: "long-island.jpeg"

@@ -7,5 +7,5 @@ patterns:
     description: |
       This button should be used in almost all situations.
     fields:
-      - name: text
+      - name: "url"
       type: string

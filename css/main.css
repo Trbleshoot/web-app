@@ -87,6 +87,53 @@
   font-weight: 500;
 }
 
+p {
+  color: #1d1d1d;
+}
+
+.icon-color {
+  color: #862014;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.icon-color:hover {
+  color: #1d1d1d;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.note {
+  text-decoration-color: #1d1d1d;
+}
+
+.note:hover {
+  color: #862014;
+}
+
+.plus {
+  color: #1d1d1d;
+}
+
+.plus:hover {
+  color: #862014;
+}
+
+.cocktail-icons {
+  color: #862014;
+}
+
+span {
+  color: #1d1d1d;
+}
+
+.instructions {
+  margin-left: 4em;
+}
+
+.labelTitle {
+  margin-bottom: 1px;
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -101,6 +148,23 @@
   .container {
     margin-bottom: 1em;
     padding-left: 1em;
+  }
+
+  .seasonal-content {
+    margin-right: 5em;
+    margin-bottom: 6em;
+  }
+
+  .seasonal-type {
+    margin-left: 3em;
+  }
+
+  .base-images {
+    margin-left: 1.5em;
+  }
+
+  .backbutton {
+    text-align: left;
   }
 
 }

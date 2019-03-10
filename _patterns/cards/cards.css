@@ -1,10 +1,21 @@
 .grey-bg-r {
-  background-image: linear-gradient(#D9D9D9, #D9D9D9);
+  background-image: linear-gradient(#EFEDED, #EFEDED);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 75%;
   padding-top: 2em;
   padding-right: 2em;
+  margin-bottom: 0;
+}
+
+.grey-bg-l {
+  background-image: linear-gradient(#EFEDED, #EFEDED);
+  background-position: lefts;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-bottom: 6em;
   margin-bottom: 0;
 }
 
@@ -22,6 +33,18 @@
 
 h2 {
   font-weight: 500;
+}
+
+.imagetwo-title {
+  font-weight: 600;
+}
+
+.cocktail-favourite {
+  color: #1d1d1d;
+}
+
+.cocktail-favourite:hover {
+  color: #862014;
 }
 
 .gray-box {

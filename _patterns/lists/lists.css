@@ -1,0 +1,25 @@
+.icon-heart {
+  color: var(--color-accent);
+}
+
+.icon-heart:hover {
+  color: #1d1d1d;
+}
+
+.favourite-title {
+  color: #1d1d1d;
+}
+
+.tips-title {
+  font-weight: 500;
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.favourite-title:hover {
+  color: var(--color-accent);
+}
+
+a.favourite-title:active {
+  color: #1d1d1d;
+}

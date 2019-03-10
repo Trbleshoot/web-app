@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-ca" class="{{page.htmlclass}}">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="description" content="{{page.description}}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800" rel="stylesheet">
+</head>
+<body>
+
+  {% pattern banners/top-banner %}
+  {% pattern header/instructions-header %}
+
+  <main>
+    {{content}}
+  </main>
+
+  {% pattern footer/footer %}
+
+</body>

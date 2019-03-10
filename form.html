@@ -1,0 +1,27 @@
+---
+layout: profile-default
+title: Mix'er
+description: Mixology Website
+---
+
+<div class="wrapper formBox">
+  <form role="form" action="thankyou.html" method="POST" class="push-2 gutter-2">
+
+      <div class="grid push-0">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-1-2 gutter-1-2">
+          <label for="first-name" class="push-1-8 micro">Title</label>
+          <input type="text" id="first-name" name="name" required />
+        </div>
+      </div>
+
+      <div class="island-1-2 push-1-2">
+        <label for="textarea" class="push-1-8 micro">Enter text below</label>
+        <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+      </div>
+
+      <div class="gutter-1-2">
+        {% pattern buttons/basic type="Save" %}
+      </div>
+  </form>
+</div>
+</div>
