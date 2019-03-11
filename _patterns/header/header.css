@@ -8,6 +8,11 @@
   position: relative;
 }
 
+.cocktail-banner-two {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/banners/cocktails-banner.jpeg");
+  position: relative;
+}
+
 .profile-banner {
   background-color: #1d1d1d;
 }
